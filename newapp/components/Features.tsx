@@ -5,7 +5,7 @@ const features = [
   {
     icon: <Shield className="w-12 h-12 text-purple-400" />,
     title: 'Secure',
-    description: 'Your vote is protected by advanced cryptographic techniques.'
+    description: 'Your vote is protected by the blockchain.'
   },
   {
     icon: <Lock className="w-12 h-12 text-purple-400" />,

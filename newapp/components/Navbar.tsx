@@ -98,12 +98,8 @@ export function Navbar() {
                 <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
                   About
                 </Link>
-                <Link href="/how-it-works" className="text-gray-300 hover:text-white transition-colors">
-                  How it Works
-                </Link>
-                <Link href="/documentation" className="text-gray-300 hover:text-white transition-colors">
-                  Documentation
-                </Link>
+
+
 
                 {userName ? (
                     <>
@@ -129,13 +125,6 @@ export function Navbar() {
                       >
                         Vote Now
                       </Link>
-                      <Link
-                          href="/proxy-vote"
-                          className="text-purple-500 hover:text-purple-400 transition-colors font-medium"
-                      >
-                        Delegate Vote
-                      </Link>
-
                       <Button
                           variant="outline"
                           className="border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition-all"

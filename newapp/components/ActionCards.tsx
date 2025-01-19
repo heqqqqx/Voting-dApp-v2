@@ -5,7 +5,7 @@ const cards = [
     title: 'Register',
     description: 'Verify your identity and join the secure voting platform.',
     icon: UserCheck,
-    href: '/register'
+    href: '/auth'
   },
   {
     title: 'Vote',
